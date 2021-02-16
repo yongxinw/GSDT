@@ -13,8 +13,6 @@ class opts(object):
         self.parser.add_argument('--task', default='gnn_mot', help='mot')
         self.parser.add_argument('--exp_id', default='default')
         self.parser.add_argument('--test', action='store_true')
-        # self.parser.add_argument('--load_model', default='../models/ctdet_coco_dla_2x.pth',
-        # help='path to pretrained model')
         self.parser.add_argument('--load_model', default='',
                                  help='path to pretrained model')
         self.parser.add_argument('--resume', action='store_true',
@@ -235,7 +233,6 @@ class opts(object):
 
         opt.gpus_str = opt.gpus
         opt.gpus = [int(gpu) for gpu in opt.gpus.split(',')]
-        # opt.gpus = [i for i in range(len(opt.gpus))] if opt.gpus[0] >= 0 else [-1]
         opt.world_size = len(opt.gpus) * opt.nodes
         opt.lr_step = [int(i) for i in opt.lr_step.split(',')]
 
