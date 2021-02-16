@@ -1,0 +1,35 @@
+{
+    "root":"/data",
+    "train":
+    {
+        "mot17":"./data/mot17.train"
+    },
+    "test_emb":
+    {
+        "mot17":"./data/mot17.train"
+    },
+    "test":
+    {
+        "mot17":"./data/mot17.train"
+    },
+    "test_confs":
+    {
+        "MOT17-01-SDP": 0.4,
+        "MOT17-03-SDP": 0.4,
+        "MOT17-06-SDP": 0.35,
+        "MOT17-07-SDP": 0.2,
+        "MOT17-08-SDP": 0.2,
+        "MOT17-12-SDP": 0.35,
+        "MOT17-14-SDP": 0.35
+    },
+    "val_confs":
+    {
+        "MOT17-02-SDP": 0.3,
+        "MOT17-04-SDP": 0.3,
+        "MOT17-05-SDP": 0.3,
+        "MOT17-09-SDP": 0.3,
+        "MOT17-10-SDP": 0.3,
+        "MOT17-11-SDP": 0.3,
+        "MOT17-13-SDP": 0.3
+    }
+}

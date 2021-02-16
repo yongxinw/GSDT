@@ -1,0 +1,29 @@
+{
+    "root":"/data",
+    "train":
+    {
+        "mot20":"./data/mot20.train"
+    },
+    "test_emb":
+    {
+        "mot20":"./data/mot20.train"
+    },
+    "test":
+    {
+        "mot20":"./data/mot20.train"
+    },
+    "test_confs":
+    {
+        "MOT20-04":  0.45,
+        "MOT20-06": 0.45,
+        "MOT20-07":  0.45,
+        "MOT20-08": 0.45
+    },
+    "val_confs":
+    {
+        "MOT20-01":  0.45,
+        "MOT20-02": 0.45,
+        "MOT20-03":  0.45,
+        "MOT20-05": 0.45
+    }
+}
