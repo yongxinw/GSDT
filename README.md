@@ -1,6 +1,6 @@
 # GSDT
 ### Joint Object Detection and Multi-Object Tracking with Graph Neural Networks
-This is the official PyTorch implementation of our paper submitted to ICRA 2021: "[**Joint Object Detection and Multi-Object Tracking with Graph Neural Networks**](https://arxiv.org/abs/2006.13164)". Our project website and video demos are [here](http://www.xinshuoweng.com/projects/GNNDetTrk/). If you find our work useful, we'd appreciate you citing our paper as follows:
+This is the official PyTorch implementation of our paper: "[**Joint Object Detection and Multi-Object Tracking with Graph Neural Networks**](https://arxiv.org/abs/2006.13164)". Our project website and video demos are [here](http://www.xinshuoweng.com/projects/GNNDetTrk/). If you find our work useful, we'd appreciate you citing our paper as follows:
 
 ```
 @article{Wang2020_GSDT, 
