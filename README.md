@@ -96,7 +96,7 @@ To clarify, currently we directly used the MOT17 results as MOT16 results for su
 We are currently in the process of cleaning the training code. We'll release as soon as we can. Stay tuned!
 
 # Performance on MOT Challenge
-You can refer to [MOTChallenge website](https://motchallenge.net/results/MOT20/?det=All) for performance of our method. For your convenience, we summarize results below:
+You can refer to [MOTChallenge](https://motchallenge.net/results/MOT20/?det=All) website for performance of our method. For your convenience, we summarize results below:
 | Dataset    |  MOTA | IDF1 | MT | ML | IDS |
 |--------------|-----------|--------|-------|----------|----------|
 |2DMOT15  | 60.7 | 64.6 |  47.0% | 10.5% | 477 |
